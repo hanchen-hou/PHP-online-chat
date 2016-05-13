@@ -1,0 +1,112 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+#top_menu_bar {
+	background-color: #0092c7;
+	width: 100%;
+	display: table;
+}
+#main_div {
+	background-color: #F5F5F5;
+	width: 100%;
+	overflow: auto;
+}
+#bottom_div {
+	background-color: #0092c7;
+	width: 100%;
+}
+.clear_div {
+	width: 0px;
+	height: 0px;
+	clear: both;
+}
+
+#top_menu_bar .btn_img{
+	position: absolute;
+	top: 10px;
+	left: 7px;
+}
+
+#top_menu_bar h1 {
+	display:table-cell;
+	text-align: center;
+	vertical-align: middle;
+	height: 100%;
+	margin: 0px;
+	color: white;
+	text-shadow: 2px 2px 2px grey;
+	font-size: large;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+#menu_bar_listbox{
+	position: absolute;
+}
+#menu_bar_listbox .inner{
+	-moz-box-shadow:2px 2px 5px #333333;
+	-webkit-box-shadow:2px 2px 5px #333333;
+	box-shadow:2px 2px 5px #333333;
+	padding: 10px;
+}
+#menu_bar_listbox .inner .avatar_img{
+	border:4px solid #555555;
+}
+#menu_bar_listbox form{
+	color: white;
+}
+#menu_bar_listbox input{
+	margin-top:10px;
+	font-family: '微软雅黑', Verdana, Arial, Helvetica, sans-serif;
+}
+
+#input_panel {
+	padding: 10px;
+	border: 0;
+}
+
+#input_div {
+	background-color: white;
+	float: left;
+	border-radius: 10px;
+	padding: 10px 10px 5px 10px;
+	/*border: 1px solid #0067a6;*/
+}
+
+#input_text_area {
+	border: 0px;
+	/*overflow-y: hidden;*/
+	font-size: 20px;
+	resize: none;
+}
+
+#send_btn {
+	display: table;
+	border-radius: 10px;
+	background: #1f8784;
+	float: left;
+	margin: 0px 0px 0px 10px;
+	padding: 0px 15px;
+	color: white;
+	font-family: '微软雅黑', Tahoma, Geneva, sans-serif;
+	transition: background 0.2s;
+	-moz-transition: background 0.2s;	/* Firefox 4 */
+	-webkit-transition: background 0.2s;	/* Safari 和 Chrome */
+	-o-transition: background 0.2s;	/* Opera */
+}
+/*#send_btn:hover {
+ background: #42a881;
+ }*/
+#send_btn div {
+	display: table-cell;
+	margin: 0px;
+	text-align: center;
+	vertical-align: middle;
+	-moz-user-select: none;/*火狐*/
+	-webkit-user-select: none;/*webkit浏览器*/
+	-ms-user-select: none;/*IE10*/
+	-khtml-user-select: none;/*早期浏览器*/
+	user-select: none;
+}
